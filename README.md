@@ -1,0 +1,3 @@
+cd dist/ && http-server -p 8000
+
+web-push send-notification --endpoint="https://fcm.googleapis.com/fcm/send/cP0unFLLRRw:APA91bHKL9ySy48Z_D8p2s-fkr8IIhC6bFEVvs7yfqrPkWXpPgiaD7VZdE2VLPs-wNMaRaDSmm63bNHX_AU38_LWtzGE4fSjWdaSXe_5kZhFirtgcF5C2kSsFJ_VLuis9I9-cjwZtyg3" --key="BHDAO6EMWy09gXn69EWBQtQmnMiWqqGdclyQzB1gLsixJvFU2mR7C5Ozw-a9R1HQ5fJF3UjvJV14kofp2DZA8oE" --auth="7FyGHOoPnalb5IfdJ4xNGQ" --payload='{"test": "hello world"}' --vapid-subject="https://localhost:8000" --vapid-pubkey="BORAeKURRIl3ntzIGam1InZGPdMu_Y5MgXOCNJsI5s0SACSpfPV6nyqvUM1uy3V8M4Mbvo-Z0Fc2fWZyWc39hr8" --vapid-pvtkey="i5MAv81K5qeHowrIL0iIImY0qNuVJsto07XXNvatovQ" 
